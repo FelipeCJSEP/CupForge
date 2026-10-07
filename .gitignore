@@ -1,0 +1,44 @@
+## Build and IDE outputs
+bin/
+obj/
+out/
+dist/
+build/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Node & Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.env.local
+.env.*.local
+
+## Test & Coverage
+TestResults/
+*.trx
+coverage/
+*.cobertura.xml
+
+## Docker & Local volumes
+.docker/
+docker-compose.override.yml
+
+## Logs & Temp files
+logs/
+*.log
+scratch/
+.system_generated/
+*.tmp
+*.temp
+
+## OS files
+.DS_Store
+Thumbs.db
+desktop.ini
