@@ -42,7 +42,7 @@ O projeto deverá ser desenvolvido como um sistema comercial real.
 - [x] ADRs Iniciais (ADR-001 Clean Architecture, ADR-002 CQRS/MediatR, ADR-003 EF Core/SQL Server)
 
 ## Fase 2: Infraestrutura & DevOps Base
-- [ ] Inicialização do Repositório Git e GitHub
+- [x] Inicialização do Repositório Git e GitHub (`https://github.com/FelipeCJSEP/CupForge`)
 - [ ] Branch Protection Rules & GitFlow / Trunk-Based Strategy
 - [ ] Configuração de Conventional Commits e Commitlint
 - [ ] Configuração de GitHub Projects, Milestones e Issues Templates
