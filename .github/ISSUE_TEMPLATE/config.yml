@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentação do Projeto
+    url: https://github.com/FelipeCJSEP/CupForge/tree/main/docs
+    about: Consulte os requisitos, regras de negócio e ADRs arquiteturais antes de abrir uma issue.
+  - name: 💬 Dúvidas e Discussões Técnicas
+    url: https://github.com/FelipeCJSEP/CupForge/discussions
+    about: Propostas arquiteturais e discussões abertas da comunidade.

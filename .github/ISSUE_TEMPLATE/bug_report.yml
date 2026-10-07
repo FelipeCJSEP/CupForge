@@ -1,0 +1,51 @@
+name: 🐛 Bug Report / Relatório de Defeito
+description: Relatar um erro, comportamento incorreto ou violação de regra de negócio
+title: "fix: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por ajudar a manter a qualidade e robustez do **CupForge**! Forneça o máximo de detalhes possível.
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: 🔍 Descrição do Problema
+      description: Explique de forma clara o que está acontecendo de forma inconsistente.
+      placeholder: "Ao recalcular a tabela após empate triplo, a ordem dos critérios..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: 👣 Passos para Reproduzir
+      description: Como podemos reproduzir o erro de forma determinística?
+      placeholder: |
+        1. Criar edição de torneio com formato X
+        2. Cadastrar as equipes A, B e C
+        3. Lançar o resultado do jogo 1: A 2 x 1 B
+        4. Observar a classificação gerada...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 🎯 Comportamento Esperado
+      description: O que as regras de negócio ou a arquitetura previam que acontecesse?
+      placeholder: "A equipe B deveria permanecer à frente de C devido ao critério de saldo..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs-or-context
+    attributes:
+      label: 🪵 Logs, Traces ou Informações de Ambiente
+      description: Cole trechos de logs estruturados (Serilog), CorrelationId, stack trace ou requisições HTTP.
+      placeholder: |
+        CorrelationId: ...
+        HTTP Status: 500 / 422
+    validations:
+      required: false

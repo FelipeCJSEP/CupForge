@@ -1,0 +1,54 @@
+name: 🚀 Feature Request / Nova Funcionalidade
+description: Propor uma nova funcionalidade, caso de uso ou melhoria no CupForge
+title: "feat: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por propor uma melhoria para o **CupForge**! Preencha as seções abaixo para facilitar a análise técnica.
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: 📌 Problema ou Necessidade
+      description: Qual problema ou cenário de negócio motivou essa proposta?
+      placeholder: "Como organizador de torneio, sinto falta de..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: 💡 Solução Proposta
+      description: Descreva detalhadamente como a funcionalidade deve se comportar.
+      placeholder: "Implementar o Command X que processa Y e atualiza a entidade Z..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: target-module
+    attributes:
+      label: 🧱 Módulo / Bounded Context Alvo
+      options:
+        - "Competition & Stages (Motor de Competições)"
+        - "Match & Results (Partidas e Resultados)"
+        - "Standings & Statistics (Classificação e Critérios)"
+        - "Participants & Rosters (Clubes, Clãs e Jogadores)"
+        - "Identity & Security (JWT, Permissões)"
+        - "Infra / DevOps (Docker, CI/CD, Observabilidade)"
+        - "Frontend SPA (React)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: ✅ Critérios de Aceite (Gherkin / Checklist)
+      description: Condições necessárias para considerar esta funcionalidade concluída.
+      placeholder: |
+        - [ ] Dado que... Quando... Então...
+        - [ ] Testes unitários com cobertura >= 85%
+        - [ ] Endpoint documentado no Swagger
+    validations:
+      required: true
