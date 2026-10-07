@@ -43,9 +43,10 @@ O projeto deverá ser desenvolvido como um sistema comercial real.
 
 ## Fase 2: Infraestrutura & DevOps Base
 - [x] Inicialização do Repositório Git e GitHub (`https://github.com/FelipeCJSEP/CupForge`)
+- [x] Configuração de GitHub Issue Templates (Bug Report & Feature Request) e Pull Request Template
 - [ ] Branch Protection Rules & GitFlow / Trunk-Based Strategy
 - [ ] Configuração de Conventional Commits e Commitlint
-- [ ] Configuração de GitHub Projects, Milestones e Issues Templates
+- [ ] Configuração de GitHub Projects e Milestones
 - [ ] GitHub Actions (CI inicial: Build, Test, Lint)
 - [ ] Configuração do SonarQube / SonarCloud
 - [ ] Dockerfiles & Docker Compose (SQL Server, Redis, Mailpit, API, Web)
